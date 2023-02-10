@@ -1,0 +1,150 @@
+
+    #content {
+        width: 100%;
+        height: 1000px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+    }
+
+    /* index 슬라이드 */
+    .top_content{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+        #carousel_container {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            padding-left: 90px;
+        }
+
+        .carousel {
+            width: 80%;
+            height: 100%;
+            transform: translate3d(0, 0, 0);
+            transition: transform 0.5s;
+        }
+
+        .carousel_content {
+            width: 100%;
+            height: 100%;
+            background-color: burlywood;
+            border-radius: 20px;
+        }
+        .carousel_content img{
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
+        #num1{
+            background-image: url(http://ticketimage.interpark.com/TCMS4/Main/202301/MainVisual_7d5dbe1f-2795-4621-aa9c-2e0f95c7a908.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        #num2{
+            background-image: url(http://ticketimage.interpark.com/TCMS4/Main/202301/MainVisual_09c9552f-8d88-4e37-82cf-6f7d99c7ec49.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        #num3{
+            background-image: url(http://ticketimage.interpark.com/TCMS4/Main/202212/MainVisual_4d269bdc-1bc1-4ed0-b77b-87ff60664723.jpg);
+            background-size: cover;
+            background-position: center;
+
+        }
+            div > button {
+                /* margin: 50px; */
+                width: 50px;
+                height: 50px;
+            }
+            .up_down_button{
+                margin-left: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        #button_next {
+            margin: 10px;
+            background : url(../img/arrow-down-svgrepo-com.svg) no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            border: 0;
+        }
+        .button_prev{
+            background : url(../img/arrow-up-svgrepo-com.svg) no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            border: 0;
+        }
+    /* index 슬라이드 */
+
+    .index_content_container{
+        width: 2000px;
+        height: 350px;
+        display:flex;
+        justify-content: center;
+        /* padding-right: 20px; */
+        /* grid-template-rows: 100px 200px; */
+    }
+        .index_content{
+            width: 420px;
+            height: 320px;
+            margin : 0 50px 0 50px;
+            background-color: whitesmoke;
+            border-radius: 20px;
+            text-align: center;
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            transition-duration: 0.8s;
+
+        }
+        .index_content:hover{
+            transform: scale(1.15);
+        }
+
+        .album_img_container{
+            margin-top: 4%;
+            width: 55%;
+            height: 70%;
+        }
+            .album_img{
+                width: 80%;
+                height: 80%;
+                border-radius: 20px;
+            }
+        .album_info_container{
+            width: 45%;
+            height: 70%;
+            text-align: center;
+        }
+            .album_info_container > h2{
+                margin-top: 15px;
+                margin-bottom: 10px;
+                padding-right: 30px;
+            }
+            .album_info_container > ul > li {
+                text-align: left;
+            }
+            .album_info_container > ul > li > span {
+                display: inline-block;
+                width: 80px;
+            }
+            .album_lyrice {
+                margin-bottom: 30px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            

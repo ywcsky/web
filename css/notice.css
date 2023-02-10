@@ -1,0 +1,100 @@
+#div-container{
+    height: 970px
+}
+.content_container{
+    width: auto;
+    height: 800px;
+    /* display: flex; */
+}
+    .notice_top_img_container{
+        width: 100%;
+        height: 200px;
+        background-color: #f9e000;
+        display: flex;
+        justify-content: center;
+        margin-top: -30px;
+        border-bottom: 1px solid #969696;
+    }
+        .notice_top_img_container>img{
+            width: 300px;
+            align-items: center;
+            margin-left: 50px;
+            filter: drop-shadow(5px 5px 5px #000);
+            margin-right: 150px;
+        }
+        .notice_top_img_container>div>ul>li{
+            font-size: 25px;
+        }
+    .notice_top_img_container>div>ul{
+        position: relative;
+        top: 30%;
+        line-height: 50px;
+    }
+
+    .notice_content_container{
+        display: flex;
+        height: 550px;
+        width: 100%;
+    }
+
+    aside{
+        width: 20%;
+        display: flex;
+        justify-content: right;
+        height: 550px;
+    }
+
+    .notice_category{
+        border: 1px solid #969696;
+        border-radius: 10px;
+        border-style: hidden;
+        box-shadow: 0 0 0 1px #000;
+        margin-left: 100px;
+        margin-top: 100px;
+        border-collapse: collapse;
+        line-height: 50px;
+        width: 150px;
+        height: 150px;
+        position: fixed;
+    }
+    .notice_category tr td {
+        border: 1px solid #969696;
+        padding-left: 20px;
+    }
+
+    .notice_all_container{
+        width: 75%;
+        height: 550px;
+    }
+
+.notice_all{
+    border-top: 1px solid #969696;
+    border-bottom: 1px solid #969696;
+    margin-left: 100px;
+    margin-top: 50px;
+    line-height: 30px;
+    border-collapse: collapse;
+    line-height: 60px;
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.notice_all tr td{
+    border-bottom: 1px solid #969696;
+    border-top: 1px solid #969696;
+    width: 10%;
+    padding-left: 20px;
+}
+.notice_all tr th {
+    padding-left: 20px;
+}
+.table_date{
+    width: 25%;
+}
+.table_category{
+    width : 25%;
+}
+.table_subject{
+    width: 50%;
+}
